@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="Physician Referral Coordinator,Specialty Quiz, Medical Knowledge, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Clinical Specialty Quiz</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="//code.jquery.com/jquery.min.js"></script>
+</head>
+<body>
+
+   <header role="banner">
+    <div class="heading">
+      <h1>Clinical Specialty Quiz</h1>
+        <p>Let's test your knowledge and see how you can refer patients to the right specialist. There may be an overlap with surgical specialties, but choose the one to your best knowledge.</p>
+    </div>
+   </header>
+      <section class="status-heading">
+      <div class="current-status">
+        <ul>
+          <li>Question: <span class="questionNumber">0</span>/10</li>
+          <li>Score: <span class="score">0</span>/10</li>
+        </ul>
+      </div>
+    </section>
+    <main role="main">
+    <div class= "startQuiz">
+     <h2>Ready to test your knowledge?</h2>
+     <button type="button" class="startButton">Let's start!</button>
+    </div>
+    <div class="questionAnswerForm"></div>
+ </main>
+  <script src="datastore.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
